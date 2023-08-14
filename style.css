@@ -1,0 +1,386 @@
+* {
+    font-family: Arial;
+    box-sizing: border-box;
+    margin: 0px;
+    /* overflow-x: hidden; */
+}
+
+.flex {
+    display: flex;
+}
+
+.inline-b {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+/* styling navigation bar */
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* logo */
+.logo {
+    width: 100px;
+    height: 50px;
+    
+}
+
+.logo1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+}
+
+/* location picker */
+.nav-location {
+    color: white;
+}
+
+.deliver {
+    margin-left: 13px;
+    color: #cccccc;
+}
+
+.india {
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+/* styling search bar */
+
+.search-bar {
+    /* height: 50px; */
+    width: 900px;
+    align-items: center;
+    border: 2px solid transparent;
+
+}
+
+.search-bar:hover {
+    border: 2px solid rgb(255, 183, 50);
+}
+
+.dropdown {
+    width: 42px;
+    height: 40px;
+    border:none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #fefefee6;
+    text-align: center;
+}
+
+.search {
+    height: 40px;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+}
+
+.search:active {
+    border: none;
+}
+
+.search-icon {
+    color: white;
+    background-color: rgb(255, 204, 0);
+    height: 40px;
+    width: 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* styling Cart section  */
+.cart {
+    color: white;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+.border:hover {
+    border: 2px solid white;
+
+}
+
+/* styling progressive nav bar */
+.progressive-navbar{
+    width: 100%;
+    height: 39px;
+    background-color: #232f3e;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.all-menu {
+    margin-left: 5px;
+}
+
+.nav-list{
+    list-style-type: none;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+    /* text-decoration: none;
+    color: white; */
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* styling hero section */
+
+.hero-section {
+    width: 100%;
+    height: 50vh;
+    background-image: url(header.jpg);
+    background-size: cover;
+    justify-content: center;
+}
+
+.msg {
+    height: 30px;
+    width: 50%;
+    color: black;
+    background-color: white;
+    align-self: flex-end ;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 80px;
+
+}
+
+.msg a {
+    text-decoration: none;
+    color: rgb(83, 184, 224);
+
+}
+
+/* boxes section */
+
+.box-section {
+    width: 100%;
+    /* height: 600px; */
+    background: linear-gradient(90deg, rgba(255,235,205,1) 35%, rgba(254,193,204,1) 100%);
+    justify-content: space-evenly;
+}
+
+
+/* box dimensions */
+.box {
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    margin: 5px;
+
+}
+
+/* styling shop now link  */
+.box a{
+    text-decoration: none;
+    color: rgb(83, 184, 224);
+    position: relative;
+    left:20px;
+}
+
+/* styling image */
+.img1 {
+    background-image: url(dumbells.jpg);
+    background-size: cover;
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 5px;
+    left: 20px;
+
+}
+/* box container */
+.boxes {
+    position: relative;
+    bottom: 70px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.img2 {
+    background-image: url(sof.jpg);
+    background-size: cover;
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 5px;
+    left: 20px;
+}
+
+.img3 {
+    background-image: url(phones.jpg);
+    background-size: cover;
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 5px;
+    left: 20px;
+
+}
+
+.box4 {
+    width: 300px;
+    height: 150px;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    position: relative;
+    top: 7px;
+}
+
+.box4 p {
+    padding: 5px;
+    font-weight: 700;
+    font-size: large;
+    position: relative;
+    top: 15px;
+}
+
+.box4 button {
+    align-self: center;
+    padding: 5px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: yellow;
+    border: 2px solid transparent;
+    position: relative;
+    top: 30px;
+}
+
+.box4 button:hover {
+    border: 2px solid orange;
+
+}
+
+.box4-out {
+    flex-direction: column;
+}
+
+.ship {
+    background-image: url(shipping.jpg);
+    background-size: cover;
+    position: relative;
+    top: 30px;
+}
+
+.box-section2 {
+    margin-top: 15px;
+}
+
+/* Styling banner  */
+
+.banner-card {
+    background: linear-gradient(90deg, rgba(255,235,205,1) 35%, rgba(254,193,204,1) 100%);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+.banner {
+    background-color: white;
+    justify-content: center;
+    width: 90%;
+    height: 400px;
+    align-items: center;
+}
+
+.long-card {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+}
+
+.supply {
+    position: relative;
+    top: 30px;
+}
+
+/* Inserting Images */
+.banners {
+    width: 30%;
+    height: 300px;
+    background-size: cover;
+    margin: 10px;
+}
+
+.plates {
+    background-image: url(daily.jpg);
+}
+
+.orchid {
+    background-image: url(orchid.jpg);
+
+}
+
+.clips {
+    background-image: url(cllips.jpg);
+
+}
+/* styling footer section  */
+
+.back-to-top {
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color:#232f3e;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-to-top a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color: #0f1111;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.li {
+    list-style: none;
+    flex-direction: column;
+}
+
+
+
+.li li a {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+li {
+    padding: 5px;
+}
+
+/* Styling doneeeeeeeeeeeeeeee */
+
